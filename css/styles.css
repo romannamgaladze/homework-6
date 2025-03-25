@@ -1,0 +1,38 @@
+header {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 41px;
+}
+button {
+  background-color: transparent;
+}
+.conteiner {
+  width: 1312px;
+  margin: 0 auto;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  column-gap: 60px;
+}
+.user {
+  margin-left: 56px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #69306d;
+  border-radius: 50%;
+}
+.cart {
+  margin-left: 60px;
+}
+
+.main-content {
+  height: 400px;
+  border: 2px solid green;
+  margin-top: 101px;
+}
