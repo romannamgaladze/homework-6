@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
 /* ..............HEADER!!!........................ */
 
 header {
@@ -19,8 +24,16 @@ button {
   align-items: center;
 }
 .nav-list {
+  @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
   display: flex;
   column-gap: 60px;
+  font-family: "Inter", sans-serif;
+}
+
+.list-items-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
 }
 .user {
   margin-left: 56px;
@@ -36,27 +49,142 @@ button {
 /* ..........................MAIN......................... */
 
 .main-content {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-top: 101px;
   display: flex;
   column-gap: 70px;
+
   /* justify-content: space-between; */
 }
 
+/* ..............First Conteinr................... */
+
 .product-images {
   width: 646px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 535px;
   display: flex;
   justify-content: space-between;
 }
 
-.product-info {
-  width: 593px;
-  height: 535px;
-  border: 2px solid blue;
-}
 .gallery-pictures {
   margin-bottom: 20px;
   height: 91px;
+}
+
+/* ....................Second Conteiner................. */
+.product-info {
+  width: 593px;
+  height: 535px;
+  /* border: 2px solid blue; */
+}
+.h2-name {
+  width: 571px;
+  height: 80px;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 4%;
+  color: #000000;
+
+  margin-bottom: 11px;
+}
+.stars-and-number {
+  display: flex;
+  width: 217px;
+  height: 27px;
+  column-gap: 15px;
+  align-items: center;
+  margin-bottom: 46px;
+}
+.ul-stars {
+  display: flex;
+  width: 130px;
+  height: 24px;
+}
+.stars {
+  margin-right: 5px;
+}
+.number {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  /* ......inspect-ის დროს invalidს რატომ მიწერს?........ */
+  letter-spacing: 2%;
+  color: #000000;
+  opacity: 0.85;
+}
+
+.cost-number {
+  width: 530px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 4%;
+  color: #69306d;
+  margin-bottom: 41px;
+}
+
+.colors-text {
+  width: 72px;
+  height: 27px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: #000000;
+  opacity: 0.8;
+  margin-bottom: 16px;
+  padding-top: 3.5px;
+  padding-left: 0%;
+}
+
+.color-list {
+  width: 124px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 41px;
+}
+/* .pick-color {
+} */
+
+.cart-and-heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.add-to-cart {
+  width: 482px;
+  height: 65px;
+  border-radius: 10px;
+  background-color: #f2d7ee;
+  font-size: 20px;
+  color: #69306d;
+  font-weight: 600;
+  line-height: 100%;
+}
+.heart-button {
+  width: 91px;
+  height: 65px;
+  border: 1px solid #69306d;
+  border-radius: 10px;
+}
+.buy-now {
+  width: 593px;
+
+  /* .......... აქ სიმაღლის ჩაწსორება მომიწია რომ ზუსტად დამჯდარიყო ხაზზე...... */
+  height: 62px;
+  border-radius: 10px;
+  background-color: #69306d;
+  font-size: 20px;
+  color: #faf6ef;
+  font-weight: 600;
+  line-height: 100%;
 }
