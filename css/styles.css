@@ -1,3 +1,5 @@
+/* ..............HEADER!!!........................ */
+
 header {
   /* border: 2px solid blue; */
   display: flex;
@@ -31,8 +33,30 @@ button {
   margin-left: 60px;
 }
 
+/* ..........................MAIN......................... */
+
 .main-content {
-  height: 400px;
   border: 2px solid green;
   margin-top: 101px;
+  display: flex;
+  column-gap: 70px;
+  /* justify-content: space-between; */
+}
+
+.product-images {
+  width: 646px;
+  border: 2px solid red;
+  height: 535px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-info {
+  width: 593px;
+  height: 535px;
+  border: 2px solid blue;
+}
+.gallery-pictures {
+  margin-bottom: 20px;
+  height: 91px;
 }
